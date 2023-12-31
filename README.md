@@ -25,21 +25,21 @@ pip install XlsxWriter
 
 ### Usage
 
-To use the script, you will first need to make an adjustment to the script. You will need to change the value of the variable `tickerDict` (Line 15) to the symbols and purchase price of the stock you want to fetch the data for. For example, if you want to fetch the data for Apple which was bought for $100, you will need to change the value of the variable `tickersDict` to `'AAPL': 100`. You can find the symbol of a stock on Yahoo Finance. For example, the symbol of Apple is `AAPL`, the symbol of Microsoft is `MSFT`, and the symbol of Tesla is `TSLA`.
+To use the script, you will first need to make an adjustment to the script You will need to change the value of the variable `tickerDict` (Line 15) to the symbols and purchase price of the stock you want to fetch the data for. For example, if you want to fetch the data for Apple which was bought for $100, you will need to change the value of the variable `tickersDict` to `'AAPL': 100`. You can find the symbol of a stock on Yahoo Finance. For example, the symbol of Apple is `AAPL`, the symbol of Microsoft is `MSFT`, and the symbol of Tesla is `TSLA`.
 
 After you have made the adjustment to the script, you can run the script using the following command:
 
 ```bash
-python yahooFinanceFetcher.py
+python yfinanceScript.py
 ```
 
-The script will then fetch the data for the stocks you specified and save the data in an Excel file named `yahooFinanceData.xlsx`. The Excel file will be saved in the same directory as the script called `spreadsheet.xlsx`.
+The script will then fetch the data for the stocks you specified and save the data in an Excel file named `spreadsheet.xlsx` in the same directory.
 
 > Note: If you want to change the gain/loss percentage color threshold, you can change the value of the variable `gainLossMargin` (Line 17) to the percentage you want. For example, if you want the gain/loss percentage color threshold to be 10%, you will need to change the value of the variable `gainLossMargin` to `10`. The default value of the variable `gainLossMargin` is `5`.
 
 ## Authors
 
-- **[memms](github.com/memms)**
+- **[memms](https://github.com/memms)**
 
 ## License
 
