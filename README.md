@@ -43,5 +43,4 @@ The script will then fetch the data for the stocks you specified and save the da
 
 ## License
 
-This project is licensed under the GPLv3.0 License - see the [LICENSE](LICENSE) file for details
-```
+This project is licensed under the GPLv3.0 License - see the [LICENSE](LICENSE) file for details.
